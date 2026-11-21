@@ -61,18 +61,24 @@ def _tokenize(text: str) -> List[str]:
     return tokens
 
 
-def _parse_front_matter(raw: str) -> Tuple[Dict[str, str], List[str]]:
+def _parse_front_matter(raw: str) -> Tuple[Dict[str, str], List[str], int]:
+    """返回 (元数据, 正文行, 偏移量)。
+
+    偏移量 = 正文第一行在原始文件中的行号 - 1，用于把"正文行号"换算成
+    "文件行号"，保证界面上的引用行号与用编辑器打开文件后数到的行号一致。
+    """
     lines = raw.splitlines()
-    meta: Dict[str, str] = {}
     if lines and lines[0].strip() == "---":
         end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
-        if end:
+        if end is not None:
+            meta: Dict[str, str] = {}
             for ln in lines[1:end]:
                 if ":" in ln:
                     k, v = ln.split(":", 1)
                     meta[k.strip()] = v.strip()
-            return meta, lines[end + 1:]
-    return meta, lines
+            # 正文从 lines[end+1] 开始，其文件行号为 end+2；偏移 = end+1
+            return meta, lines[end + 1:], end + 1
+    return {}, lines, 0
 
 
 def _split_sections(lines: List[str]) -> List[Tuple[str, int, str]]:
@@ -125,13 +131,14 @@ class KnowledgeIndex:
     def _build(self, kb_dir) -> None:
         for path in sorted(kb_dir.glob("*.md")):
             raw = path.read_text(encoding="utf-8")
-            meta, body = _parse_front_matter(raw)
+            meta, body, fm_offset = _parse_front_matter(raw)
             doc_id = meta.get("doc_id", path.stem)
             doc_title = meta.get("title", path.stem)
             for head, line_start, text in _split_sections(body):
                 for off, piece in _chunk_text(text, config.CHUNK_SIZE, config.CHUNK_OVERLAP):
                     cid = f"{doc_id}#{len([c for c in self.chunks if c.doc_id == doc_id]) + 1}"
-                    ch = Chunk(cid, doc_id, doc_title, head, line_start + off, piece,
+                    ch = Chunk(cid, doc_id, doc_title, head,
+                               line_start + off + fm_offset, piece,
                                char_len=len(piece))
                     ch.tokens = _tokenize(piece + " " + head + " " + doc_title)
                     self.chunks.append(ch)
