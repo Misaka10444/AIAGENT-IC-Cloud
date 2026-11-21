@@ -1,0 +1,30 @@
+{
+ "_note": "检索排序质量子集：只评 RAG 召回与排序，不经过工具与生成，用于测量重排模块的真实增益。gold_doc 为唯一正确文档，gold_section 为应命中的章节（用于章节级统计）。",
+ "cases": [
+  {"id":"R01","query":"毕业最低总学分是多少","gold_doc":"KB-01","gold_section":"2 学分结构与模块要求"},
+  {"id":"R02","query":"通识选修要修多少学分","gold_doc":"KB-01","gold_section":"2 学分结构与模块要求"},
+  {"id":"R03","query":"集中实践包括哪些学分","gold_doc":"KB-01","gold_section":"2 学分结构与模块要求"},
+  {"id":"R04","query":"机器学习基础的先修课程是什么","gold_doc":"KB-01","gold_section":"3 主干课程与先修关系"},
+  {"id":"R05","query":"职业资格证书毕业有没有要求","gold_doc":"KB-01","gold_section":"5 职业资格证书要求"},
+  {"id":"R06","query":"预选和正选分别在什么时候","gold_doc":"KB-02","gold_section":"1 选课时间安排"},
+  {"id":"R07","query":"补退选阶段可以退课吗","gold_doc":"KB-02","gold_section":"1 选课时间安排"},
+  {"id":"R08","query":"每学期最多修读多少学分","gold_doc":"KB-02","gold_section":"4 学分上限"},
+  {"id":"R09","query":"两门课上课时间重叠怎么判定","gold_doc":"KB-02","gold_section":"3 时间冲突规则"},
+  {"id":"R10","query":"教学班容量满了还能选吗","gold_doc":"KB-02","gold_section":"2 容量与教学班"},
+  {"id":"R11","query":"重修一个学期最多几门","gold_doc":"KB-03","gold_section":"2 重修的时间与次数限制"},
+  {"id":"R12","query":"补考成绩最高记多少分","gold_doc":"KB-03","gold_section":"1 不及格课程的三种处理方式"},
+  {"id":"R13","query":"技能竞赛获奖可以认定多少学分","gold_doc":"KB-03","gold_section":"4 学分认定"},
+  {"id":"R14","query":"未通过与未修有什么区别","gold_doc":"KB-03","gold_section":"5 关于\"未通过\"与\"未修\"的区别"},
+  {"id":"R15","query":"毕业资格的五项必要条件","gold_doc":"KB-04","gold_section":"1 五项必要条件"},
+  {"id":"R16","query":"结业以后还能换发毕业证吗","gold_doc":"KB-04","gold_section":"4 结业与延期"},
+  {"id":"R17","query":"毕业审核需要提交哪些材料","gold_doc":"KB-04","gold_section":"5 审核材料"},
+  {"id":"R18","query":"黄色预警和橙色预警的触发条件","gold_doc":"KB-05","gold_section":"1 预警等级"},
+  {"id":"R19","query":"学业进度缺口怎么计算","gold_doc":"KB-05","gold_section":"2 学业进度缺口的计算口径"},
+  {"id":"R20","query":"预警学生有哪些帮扶措施","gold_doc":"KB-05","gold_section":"3 帮扶措施"},
+  {"id":"R21","query":"哪些课程难度比较高","gold_doc":"KB-06","gold_section":"3 课程难度与投入建议"},
+  {"id":"R22","query":"大模型应用开发这门课学什么","gold_doc":"KB-06","gold_section":"2 专业核心课程"},
+  {"id":"R23","query":"集成电路测试岗位方向选哪些课程","gold_doc":"KB-06","gold_section":"4 课程与岗位方向对应"},
+  {"id":"R24","query":"人工智能生成的作业能直接提交吗","gold_doc":"KB-07","gold_section":"2 禁止的使用范围"},
+  {"id":"R25","query":"AI生成的内容需要标注吗","gold_doc":"KB-07","gold_section":"3 内容标识要求"}
+ ]
+}

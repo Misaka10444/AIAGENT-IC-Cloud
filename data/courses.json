@@ -1,0 +1,947 @@
+{
+ "meta": {
+  "program_id": "AI-ENG-2025",
+  "program_name": "人工智能工程技术（职业本科）",
+  "college": "集成电路学院（人工智能学院）",
+  "grade": 2025,
+  "duration_years": 4,
+  "total_terms": 8,
+  "data_note": "脱敏构造样例，课程结构与学分要求参照公开培养方案整理，课程代码与教学班数据为虚构。"
+ },
+ "courses": [
+  {
+   "id": "C1001",
+   "name": "高等数学A",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "通识必修",
+   "term": 1,
+   "prereq": [],
+   "slot": "周一 1-2",
+   "capacity": 160,
+   "enrolled": 152,
+   "assess": "考试",
+   "desc": "一元与多元函数微分学、积分学基础。"
+  },
+  {
+   "id": "C1002",
+   "name": "大学英语1",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "通识必修",
+   "term": 1,
+   "prereq": [],
+   "slot": "周二 3-4",
+   "capacity": 160,
+   "enrolled": 158,
+   "assess": "考试",
+   "desc": "职场英语听说读写基础训练。"
+  },
+  {
+   "id": "C1003",
+   "name": "思想道德与法治",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "通识必修",
+   "term": 1,
+   "prereq": [],
+   "slot": "周三 5-6",
+   "capacity": 180,
+   "enrolled": 176,
+   "assess": "考查",
+   "desc": "思想道德修养与法律基础。"
+  },
+  {
+   "id": "C1004",
+   "name": "程序设计基础",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业基础",
+   "term": 1,
+   "prereq": [],
+   "slot": "周三 1-2",
+   "capacity": 120,
+   "enrolled": 118,
+   "assess": "考试",
+   "desc": "C语言语法、流程控制、数组、函数与指针初步。"
+  },
+  {
+   "id": "C1005",
+   "name": "计算机导论",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "专业基础",
+   "term": 1,
+   "prereq": [],
+   "slot": "周四 3-4",
+   "capacity": 120,
+   "enrolled": 112,
+   "assess": "考查",
+   "desc": "计算机组成、操作系统与网络概论。"
+  },
+  {
+   "id": "C1006",
+   "name": "体育1",
+   "credits": 1.0,
+   "hours": 32,
+   "module": "通识必修",
+   "term": 1,
+   "prereq": [],
+   "slot": "周五 5-6",
+   "capacity": 200,
+   "enrolled": 196,
+   "assess": "考查",
+   "desc": "体质健康测试与基础体能。"
+  },
+  {
+   "id": "C1007",
+   "name": "军事技能训练",
+   "credits": 2.0,
+   "hours": 2,
+   "module": "集中实践",
+   "term": 1,
+   "prereq": [],
+   "slot": "集中 第1-2周",
+   "capacity": 300,
+   "enrolled": 300,
+   "assess": "考查",
+   "desc": "队列、内务与国防教育实践。"
+  },
+  {
+   "id": "C2001",
+   "name": "高等数学B",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "通识必修",
+   "term": 2,
+   "prereq": [
+    "C1001"
+   ],
+   "slot": "周一 1-2",
+   "capacity": 160,
+   "enrolled": 150,
+   "assess": "考试",
+   "desc": "级数、常微分方程与线性代数初步。"
+  },
+  {
+   "id": "C2002",
+   "name": "大学英语2",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "通识必修",
+   "term": 2,
+   "prereq": [
+    "C1002"
+   ],
+   "slot": "周二 3-4",
+   "capacity": 160,
+   "enrolled": 155,
+   "assess": "考试",
+   "desc": "职场英语应用写作与口语。"
+  },
+  {
+   "id": "C2003",
+   "name": "线性代数",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业基础",
+   "term": 2,
+   "prereq": [
+    "C1001"
+   ],
+   "slot": "周一 3-4",
+   "capacity": 140,
+   "enrolled": 138,
+   "assess": "考试",
+   "desc": "矩阵、行列式、向量空间与特征值。"
+  },
+  {
+   "id": "C2004",
+   "name": "面向对象程序设计",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业基础",
+   "term": 2,
+   "prereq": [
+    "C1004"
+   ],
+   "slot": "周三 1-2",
+   "capacity": 120,
+   "enrolled": 117,
+   "assess": "考试",
+   "desc": "类与对象、继承、多态、异常处理（Java/Python）。"
+  },
+  {
+   "id": "C2005",
+   "name": "数字电路基础",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业基础",
+   "term": 2,
+   "prereq": [],
+   "slot": "周四 1-2",
+   "capacity": 120,
+   "enrolled": 115,
+   "assess": "考试",
+   "desc": "逻辑门、组合与时序逻辑、触发器与计数器。"
+  },
+  {
+   "id": "C2006",
+   "name": "体育2",
+   "credits": 1.0,
+   "hours": 32,
+   "module": "通识必修",
+   "term": 2,
+   "prereq": [
+    "C1006"
+   ],
+   "slot": "周五 5-6",
+   "capacity": 200,
+   "enrolled": 194,
+   "assess": "考查",
+   "desc": "球类与体能专项。"
+  },
+  {
+   "id": "C3001",
+   "name": "概率论与数理统计",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业基础",
+   "term": 3,
+   "prereq": [
+    "C2001"
+   ],
+   "slot": "周一 1-2",
+   "capacity": 140,
+   "enrolled": 136,
+   "assess": "考试",
+   "desc": "随机变量、分布、参数估计与假设检验。"
+  },
+  {
+   "id": "C3002",
+   "name": "大学英语3",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "通识必修",
+   "term": 3,
+   "prereq": [
+    "C2002"
+   ],
+   "slot": "周二 5-6",
+   "capacity": 160,
+   "enrolled": 150,
+   "assess": "考查",
+   "desc": "专业英语文献阅读。"
+  },
+  {
+   "id": "C3003",
+   "name": "数据结构",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业核心",
+   "term": 3,
+   "prereq": [
+    "C1004"
+   ],
+   "slot": "周二 1-2",
+   "capacity": 120,
+   "enrolled": 119,
+   "assess": "考试",
+   "desc": "线性表、树、图、查找与排序及其复杂度分析。"
+  },
+  {
+   "id": "C3004",
+   "name": "离散数学",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业基础",
+   "term": 3,
+   "prereq": [],
+   "slot": "周三 3-4",
+   "capacity": 120,
+   "enrolled": 110,
+   "assess": "考试",
+   "desc": "集合论、图论、命题与谓词逻辑。"
+  },
+  {
+   "id": "C3005",
+   "name": "模拟电子技术",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业基础",
+   "term": 3,
+   "prereq": [
+    "C2005"
+   ],
+   "slot": "周四 1-2",
+   "capacity": 120,
+   "enrolled": 116,
+   "assess": "考试",
+   "desc": "二极管、三极管、放大电路与运放。"
+  },
+  {
+   "id": "C3006",
+   "name": "马克思主义基本原理",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "通识必修",
+   "term": 3,
+   "prereq": [],
+   "slot": "周五 1-2",
+   "capacity": 180,
+   "enrolled": 172,
+   "assess": "考试",
+   "desc": "马克思主义哲学与政治经济学原理。"
+  },
+  {
+   "id": "C4001",
+   "name": "数据库原理与应用",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 4,
+   "prereq": [
+    "C3003"
+   ],
+   "slot": "周二 3-4",
+   "capacity": 120,
+   "enrolled": 118,
+   "assess": "考试",
+   "desc": "关系模型、SQL、事务与索引优化。"
+  },
+  {
+   "id": "C4002",
+   "name": "操作系统",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 4,
+   "prereq": [
+    "C3003"
+   ],
+   "slot": "周二 3-4",
+   "capacity": 120,
+   "enrolled": 116,
+   "assess": "考试",
+   "desc": "进程调度、内存管理、文件系统。"
+  },
+  {
+   "id": "C4003",
+   "name": "计算机网络",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 4,
+   "prereq": [],
+   "slot": "周四 3-4",
+   "capacity": 120,
+   "enrolled": 114,
+   "assess": "考试",
+   "desc": "TCP/IP 协议栈、路由与网络编程。"
+  },
+  {
+   "id": "C4004",
+   "name": "Python数据分析",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 4,
+   "prereq": [
+    "C2004"
+   ],
+   "slot": "周一 3-4",
+   "capacity": 120,
+   "enrolled": 119,
+   "assess": "考查",
+   "desc": "NumPy/Pandas 数据处理与可视化。"
+  },
+  {
+   "id": "C4005",
+   "name": "机器学习基础",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业核心",
+   "term": 4,
+   "prereq": [
+    "C2003",
+    "C3001"
+   ],
+   "slot": "周三 1-2",
+   "capacity": 120,
+   "enrolled": 120,
+   "assess": "考试",
+   "desc": "回归、分类、聚类、模型评估与过拟合控制。"
+  },
+  {
+   "id": "C4006",
+   "name": "形势与政策1",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识必修",
+   "term": 4,
+   "prereq": [],
+   "slot": "线上 第1-8周",
+   "capacity": 300,
+   "enrolled": 298,
+   "assess": "考查",
+   "desc": "形势政策专题。"
+  },
+  {
+   "id": "C5001",
+   "name": "深度学习",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业核心",
+   "term": 5,
+   "prereq": [
+    "C4005"
+   ],
+   "slot": "周一 1-2",
+   "capacity": 110,
+   "enrolled": 108,
+   "assess": "考试",
+   "desc": "神经网络、反向传播、CNN/RNN 与训练技巧。"
+  },
+  {
+   "id": "C5002",
+   "name": "大模型应用开发",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业核心",
+   "term": 5,
+   "prereq": [
+    "C5001",
+    "C4004"
+   ],
+   "slot": "周二 5-6",
+   "capacity": 110,
+   "enrolled": 110,
+   "assess": "考查",
+   "desc": "提示工程、RAG、工具调用与智能体开发。"
+  },
+  {
+   "id": "C5003",
+   "name": "集成电路测试技术",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 5,
+   "prereq": [
+    "C2005"
+   ],
+   "slot": "周三 3-4",
+   "capacity": 100,
+   "enrolled": 96,
+   "assess": "考试",
+   "desc": "测试向量、ATE 基础、良率与失效分析。"
+  },
+  {
+   "id": "C5004",
+   "name": "嵌入式系统",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 5,
+   "prereq": [
+    "C3005"
+   ],
+   "slot": "周四 1-2",
+   "capacity": 100,
+   "enrolled": 92,
+   "assess": "考试",
+   "desc": "MCU 架构、外设驱动与实时系统。"
+  },
+  {
+   "id": "C5005",
+   "name": "软件工程",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业核心",
+   "term": 5,
+   "prereq": [
+    "C2004"
+   ],
+   "slot": "周五 3-4",
+   "capacity": 120,
+   "enrolled": 110,
+   "assess": "考查",
+   "desc": "需求、设计模式、测试与版本管理。"
+  },
+  {
+   "id": "C5006",
+   "name": "形势与政策2",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识必修",
+   "term": 5,
+   "prereq": [],
+   "slot": "线上 第9-16周",
+   "capacity": 300,
+   "enrolled": 295,
+   "assess": "考查",
+   "desc": "形势政策专题。"
+  },
+  {
+   "id": "C6001",
+   "name": "智能体系统设计与开发",
+   "credits": 4.0,
+   "hours": 64,
+   "module": "专业核心",
+   "term": 6,
+   "prereq": [
+    "C5002"
+   ],
+   "slot": "周一 3-4",
+   "capacity": 100,
+   "enrolled": 98,
+   "assess": "考查",
+   "desc": "多智能体范式、工具编排、记忆与评测。"
+  },
+  {
+   "id": "C6002",
+   "name": "计算机视觉",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 6,
+   "prereq": [
+    "C5001"
+   ],
+   "slot": "周二 1-2",
+   "capacity": 80,
+   "enrolled": 72,
+   "assess": "考查",
+   "desc": "图像分类、检测、分割与部署。"
+  },
+  {
+   "id": "C6003",
+   "name": "模拟集成电路设计",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 6,
+   "prereq": [
+    "C3005"
+   ],
+   "slot": "周三 1-2",
+   "capacity": 60,
+   "enrolled": 55,
+   "assess": "考试",
+   "desc": "CMOS 器件、电流镜、运放设计。"
+  },
+  {
+   "id": "C6004",
+   "name": "数字集成电路设计",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 6,
+   "prereq": [
+    "C2005"
+   ],
+   "slot": "周三 3-4",
+   "capacity": 60,
+   "enrolled": 58,
+   "assess": "考试",
+   "desc": "组合/时序电路设计、时序收敛与功耗。"
+  },
+  {
+   "id": "C6005",
+   "name": "自然语言处理",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 6,
+   "prereq": [
+    "C5001"
+   ],
+   "slot": "周四 3-4",
+   "capacity": 80,
+   "enrolled": 66,
+   "assess": "考查",
+   "desc": "分词、词向量、Transformer 与文本生成。"
+  },
+  {
+   "id": "C7001",
+   "name": "集成电路版图设计",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 7,
+   "prereq": [
+    "C6003"
+   ],
+   "slot": "周一 3-4",
+   "capacity": 50,
+   "enrolled": 44,
+   "assess": "考查",
+   "desc": "版图规则、DRC/LVS 与寄生参数提取。"
+  },
+  {
+   "id": "C7002",
+   "name": "项目综合实训",
+   "credits": 6.0,
+   "hours": 192,
+   "module": "集中实践",
+   "term": 7,
+   "prereq": [
+    "C6001"
+   ],
+   "slot": "集中 第9-18周",
+   "capacity": 100,
+   "enrolled": 96,
+   "assess": "考查",
+   "desc": "以小组形式完成端到端智能体项目。"
+  },
+  {
+   "id": "C7003",
+   "name": "创新创业基础",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "通识必修",
+   "term": 7,
+   "prereq": [],
+   "slot": "周五 1-2",
+   "capacity": 200,
+   "enrolled": 190,
+   "assess": "考查",
+   "desc": "商业模式、团队与路演。"
+  },
+  {
+   "id": "C7004",
+   "name": "职业素养与就业指导",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识必修",
+   "term": 7,
+   "prereq": [],
+   "slot": "线上 第1-8周",
+   "capacity": 300,
+   "enrolled": 290,
+   "assess": "考查",
+   "desc": "简历、面试与职业规划。"
+  },
+  {
+   "id": "C8001",
+   "name": "毕业设计（论文）",
+   "credits": 10.0,
+   "hours": 320,
+   "module": "集中实践",
+   "term": 8,
+   "prereq": [],
+   "slot": "集中 全学期",
+   "capacity": 120,
+   "enrolled": 120,
+   "assess": "考查",
+   "desc": "选题、开题、实现、撰写与答辩。"
+  },
+  {
+   "id": "C8002",
+   "name": "顶岗实习",
+   "credits": 8.0,
+   "hours": 320,
+   "module": "集中实践",
+   "term": 8,
+   "prereq": [],
+   "slot": "集中 全学期",
+   "capacity": 120,
+   "enrolled": 118,
+   "assess": "考查",
+   "desc": "企业真实岗位实践与实习报告。"
+  },
+  {
+   "id": "E001",
+   "name": "艺术鉴赏与审美",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周二 7-8",
+   "capacity": 150,
+   "enrolled": 88,
+   "assess": "考查",
+   "desc": "中外艺术流派与作品赏析。"
+  },
+  {
+   "id": "E002",
+   "name": "中国传统文化概论",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周三 7-8",
+   "capacity": 150,
+   "enrolled": 120,
+   "assess": "考查",
+   "desc": "儒释道与传统文化现代转化。"
+  },
+  {
+   "id": "E003",
+   "name": "大学生心理健康",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "线上 第1-8周",
+   "capacity": 300,
+   "enrolled": 260,
+   "assess": "考查",
+   "desc": "压力管理与人际沟通。"
+  },
+  {
+   "id": "E004",
+   "name": "信息素养与文献检索",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周四 7-8",
+   "capacity": 120,
+   "enrolled": 90,
+   "assess": "考查",
+   "desc": "检索策略、学术规范与引用。"
+  },
+  {
+   "id": "E005",
+   "name": "演讲与口才",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周五 7-8",
+   "capacity": 100,
+   "enrolled": 95,
+   "assess": "考查",
+   "desc": "结构化表达与即兴演讲。"
+  },
+  {
+   "id": "E006",
+   "name": "人工智能伦理与法治",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周一 7-8",
+   "capacity": 150,
+   "enrolled": 140,
+   "assess": "考查",
+   "desc": "算法公平、数据合规与生成式AI治理。"
+  },
+  {
+   "id": "E007",
+   "name": "商务礼仪与职场沟通",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周二 9-10",
+   "capacity": 100,
+   "enrolled": 60,
+   "assess": "考查",
+   "desc": "职场形象与跨部门沟通。"
+  },
+  {
+   "id": "E008",
+   "name": "绿色低碳与可持续发展",
+   "credits": 1.0,
+   "hours": 16,
+   "module": "通识选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "线上 第9-16周",
+   "capacity": 300,
+   "enrolled": 150,
+   "assess": "考查",
+   "desc": "双碳政策与绿色技术。"
+  },
+  {
+   "id": "D001",
+   "name": "边缘AI部署与优化",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C5001"
+   ],
+   "slot": "周四 5-6",
+   "capacity": 60,
+   "enrolled": 40,
+   "assess": "考查",
+   "desc": "模型量化、剪枝与端侧推理。"
+  },
+  {
+   "id": "D002",
+   "name": "强化学习导论",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C4005"
+   ],
+   "slot": "周五 3-4",
+   "capacity": 60,
+   "enrolled": 35,
+   "assess": "考查",
+   "desc": "MDP、Q-learning 与策略梯度。"
+  },
+  {
+   "id": "D003",
+   "name": "时序数据分析",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周二 9-10",
+   "capacity": 60,
+   "enrolled": 30,
+   "assess": "考查",
+   "desc": "ARIMA、LSTM 与异常检测。"
+  },
+  {
+   "id": "D004",
+   "name": "芯片测试数据分析",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C5003"
+   ],
+   "slot": "周四 7-8",
+   "capacity": 50,
+   "enrolled": 48,
+   "assess": "考查",
+   "desc": "测试数据清洗、良率分析与根因定位。"
+  },
+  {
+   "id": "D005",
+   "name": "EDA工具链实践",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周一 9-10",
+   "capacity": 50,
+   "enrolled": 42,
+   "assess": "考查",
+   "desc": "综合、布局布线与时序分析工具实操。"
+  },
+  {
+   "id": "D006",
+   "name": "AI产品设计",
+   "credits": 2.0,
+   "hours": 32,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周五 5-6",
+   "capacity": 80,
+   "enrolled": 50,
+   "assess": "考查",
+   "desc": "需求洞察、原型设计与指标体系。"
+  },
+  {
+   "id": "D007",
+   "name": "模型压缩与加速",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C5001"
+   ],
+   "slot": "周三 9-10",
+   "capacity": 60,
+   "enrolled": 28,
+   "assess": "考查",
+   "desc": "蒸馏、量化与推理引擎。"
+  },
+  {
+   "id": "D008",
+   "name": "智能硬件开发",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周五 9-10",
+   "capacity": 50,
+   "enrolled": 36,
+   "assess": "考查",
+   "desc": "传感器、驱动与软硬协同。"
+  },
+  {
+   "id": "D009",
+   "name": "工业质检视觉",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C6002"
+   ],
+   "slot": "周二 7-8",
+   "capacity": 60,
+   "enrolled": 44,
+   "assess": "考查",
+   "desc": "缺陷检测、小样本与产线部署。"
+  },
+  {
+   "id": "D010",
+   "name": "多模态大模型",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C5001"
+   ],
+   "slot": "周四 9-10",
+   "capacity": 60,
+   "enrolled": 52,
+   "assess": "考查",
+   "desc": "视觉-语言对齐与多模态推理。"
+  },
+  {
+   "id": "D011",
+   "name": "知识图谱",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [
+    "C4001"
+   ],
+   "slot": "周一 5-6",
+   "capacity": 60,
+   "enrolled": 38,
+   "assess": "考查",
+   "desc": "本体建模、抽取与图查询。"
+  },
+  {
+   "id": "D012",
+   "name": "联邦学习与隐私计算",
+   "credits": 3.0,
+   "hours": 48,
+   "module": "专业选修",
+   "term": 0,
+   "prereq": [],
+   "slot": "周三 5-6",
+   "capacity": 50,
+   "enrolled": 26,
+   "assess": "考查",
+   "desc": "差分隐私、安全聚合与合规。"
+  }
+ ]
+}

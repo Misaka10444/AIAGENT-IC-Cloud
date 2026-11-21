@@ -1,0 +1,188 @@
+{
+ "student_id": "S003",
+ "alias": "学生C",
+ "grade": 2023,
+ "major": "人工智能工程技术",
+ "program_id": "AI-ENG-2025",
+ "current_term": 7,
+ "goal": "就业",
+ "target_direction": "智能硬件 / 边缘AI部署",
+ "preferences": {
+  "avoid_slot": [],
+  "max_credits_per_term": 28,
+  "prefer_practice": true
+ },
+ "completed": [
+  {
+   "course_id": "C1001",
+   "term": 1,
+   "score": 75
+  },
+  {
+   "course_id": "C1002",
+   "term": 1,
+   "score": 70
+  },
+  {
+   "course_id": "C1003",
+   "term": 1,
+   "score": 68
+  },
+  {
+   "course_id": "C1004",
+   "term": 1,
+   "score": 72
+  },
+  {
+   "course_id": "C1005",
+   "term": 1,
+   "score": 80
+  },
+  {
+   "course_id": "C1006",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C1007",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C2001",
+   "term": 2,
+   "score": 66
+  },
+  {
+   "course_id": "C2002",
+   "term": 2,
+   "score": 73
+  },
+  {
+   "course_id": "C2003",
+   "term": 2,
+   "score": 61
+  },
+  {
+   "course_id": "C2004",
+   "term": 2,
+   "score": 78
+  },
+  {
+   "course_id": "C2005",
+   "term": 2,
+   "score": 70
+  },
+  {
+   "course_id": "C2006",
+   "term": 2,
+   "score": "合格"
+  },
+  {
+   "course_id": "C3001",
+   "term": 3,
+   "score": 59
+  },
+  {
+   "course_id": "C3002",
+   "term": 3,
+   "score": 77
+  },
+  {
+   "course_id": "C3003",
+   "term": 3,
+   "score": 74
+  },
+  {
+   "course_id": "C3004",
+   "term": 3,
+   "score": 65
+  },
+  {
+   "course_id": "C3005",
+   "term": 3,
+   "score": 72
+  },
+  {
+   "course_id": "C3006",
+   "term": 3,
+   "score": 80
+  },
+  {
+   "course_id": "C4001",
+   "term": 4,
+   "score": 76
+  },
+  {
+   "course_id": "C4002",
+   "term": 4,
+   "score": 71
+  },
+  {
+   "course_id": "C4003",
+   "term": 4,
+   "score": 69
+  },
+  {
+   "course_id": "C4004",
+   "term": 4,
+   "score": 82
+  },
+  {
+   "course_id": "C4005",
+   "term": 4,
+   "score": 64
+  },
+  {
+   "course_id": "C4006",
+   "term": 4,
+   "score": "合格"
+  },
+  {
+   "course_id": "C5001",
+   "term": 5,
+   "score": 67
+  },
+  {
+   "course_id": "C5002",
+   "term": 5,
+   "score": 79
+  },
+  {
+   "course_id": "C5003",
+   "term": 5,
+   "score": 75
+  },
+  {
+   "course_id": "C5005",
+   "term": 5,
+   "score": 81
+  },
+  {
+   "course_id": "C5006",
+   "term": 5,
+   "score": "合格"
+  },
+  {
+   "course_id": "C6001",
+   "term": 6,
+   "score": 83
+  },
+  {
+   "course_id": "C6002",
+   "term": 6,
+   "score": 72
+  },
+  {
+   "course_id": "C6005",
+   "term": 6,
+   "score": 68
+  }
+ ],
+ "in_progress": [
+  "C7002",
+  "C7003",
+  "C7004"
+ ],
+ "note": "第3学期《概率论与数理统计》未通过且未重修；第5学期缺《嵌入式系统》；专业选修学分偏少。"
+}

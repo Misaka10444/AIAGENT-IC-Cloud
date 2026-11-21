@@ -1,0 +1,153 @@
+{
+ "student_id": "S002",
+ "alias": "学生B",
+ "grade": 2024,
+ "major": "人工智能工程技术",
+ "program_id": "AI-ENG-2025",
+ "current_term": 5,
+ "goal": "升学",
+ "target_direction": "人工智能 / 计算机技术专业硕士",
+ "preferences": {
+  "avoid_slot": [
+   "周五 9-10"
+  ],
+  "max_credits_per_term": 26,
+  "prefer_practice": false
+ },
+ "completed": [
+  {
+   "course_id": "C1001",
+   "term": 1,
+   "score": 92
+  },
+  {
+   "course_id": "C1002",
+   "term": 1,
+   "score": 88
+  },
+  {
+   "course_id": "C1003",
+   "term": 1,
+   "score": 85
+  },
+  {
+   "course_id": "C1004",
+   "term": 1,
+   "score": 90
+  },
+  {
+   "course_id": "C1005",
+   "term": 1,
+   "score": 86
+  },
+  {
+   "course_id": "C1006",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C1007",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C2001",
+   "term": 2,
+   "score": 89
+  },
+  {
+   "course_id": "C2002",
+   "term": 2,
+   "score": 84
+  },
+  {
+   "course_id": "C2003",
+   "term": 2,
+   "score": 87
+  },
+  {
+   "course_id": "C2004",
+   "term": 2,
+   "score": 91
+  },
+  {
+   "course_id": "C2005",
+   "term": 2,
+   "score": 83
+  },
+  {
+   "course_id": "C2006",
+   "term": 2,
+   "score": "合格"
+  },
+  {
+   "course_id": "C3001",
+   "term": 3,
+   "score": 90
+  },
+  {
+   "course_id": "C3002",
+   "term": 3,
+   "score": 86
+  },
+  {
+   "course_id": "C3003",
+   "term": 3,
+   "score": 88
+  },
+  {
+   "course_id": "C3004",
+   "term": 3,
+   "score": 79
+  },
+  {
+   "course_id": "C3005",
+   "term": 3,
+   "score": 81
+  },
+  {
+   "course_id": "C3006",
+   "term": 3,
+   "score": 87
+  },
+  {
+   "course_id": "C4001",
+   "term": 4,
+   "score": 85
+  },
+  {
+   "course_id": "C4002",
+   "term": 4,
+   "score": 80
+  },
+  {
+   "course_id": "C4003",
+   "term": 4,
+   "score": 84
+  },
+  {
+   "course_id": "C4004",
+   "term": 4,
+   "score": 93
+  },
+  {
+   "course_id": "C4005",
+   "term": 4,
+   "score": 89
+  },
+  {
+   "course_id": "C4006",
+   "term": 4,
+   "score": "合格"
+  }
+ ],
+ "in_progress": [
+  "C5001",
+  "C5002",
+  "C5003",
+  "C5004",
+  "C5005",
+  "C5006"
+ ],
+ "note": "成绩优秀，计划第6学期参加学科竞赛并联系导师，注意专业选修学分结构。"
+}

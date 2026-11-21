@@ -1,0 +1,93 @@
+{
+ "student_id": "S001",
+ "alias": "学生A",
+ "grade": 2025,
+ "major": "人工智能工程技术",
+ "program_id": "AI-ENG-2025",
+ "current_term": 3,
+ "goal": "就业",
+ "target_direction": "集成电路测试 / 芯片测试数据分析",
+ "preferences": {
+  "avoid_slot": [
+   "周一 1-2"
+  ],
+  "max_credits_per_term": 24,
+  "prefer_practice": true
+ },
+ "completed": [
+  {
+   "course_id": "C1001",
+   "term": 1,
+   "score": 86
+  },
+  {
+   "course_id": "C1002",
+   "term": 1,
+   "score": 78
+  },
+  {
+   "course_id": "C1003",
+   "term": 1,
+   "score": 82
+  },
+  {
+   "course_id": "C1004",
+   "term": 1,
+   "score": 74
+  },
+  {
+   "course_id": "C1005",
+   "term": 1,
+   "score": 88
+  },
+  {
+   "course_id": "C1006",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C1007",
+   "term": 1,
+   "score": "合格"
+  },
+  {
+   "course_id": "C2001",
+   "term": 2,
+   "score": 71
+  },
+  {
+   "course_id": "C2002",
+   "term": 2,
+   "score": 80
+  },
+  {
+   "course_id": "C2003",
+   "term": 2,
+   "score": 68
+  },
+  {
+   "course_id": "C2004",
+   "term": 2,
+   "score": 52
+  },
+  {
+   "course_id": "C2005",
+   "term": 2,
+   "score": 77
+  },
+  {
+   "course_id": "C2006",
+   "term": 2,
+   "score": "合格"
+  }
+ ],
+ "in_progress": [
+  "C3001",
+  "C3002",
+  "C3003",
+  "C3004",
+  "C3005",
+  "C3006"
+ ],
+ "note": "第2学期《面向对象程序设计》未通过，需重修；《线性代数》68 分为及格线附近。"
+}

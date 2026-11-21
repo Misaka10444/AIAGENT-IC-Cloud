@@ -1,0 +1,13 @@
+# 依赖清单
+#
+# 本项目运行时**不使用任何第三方包**，只依赖 Python 标准库
+# （http.server / urllib / json / re / zlib 等），因此无需 pip install。
+# 这样做的原因写在 docs/design.md 第 3.2 节：赛场断网、无 pip 环境也能直接运行，
+# 演示环节不会因为依赖安装失败而中断。
+#
+# 环境要求：Python >= 3.10（开发与验证使用 3.11）
+#
+# 下面两项**只在重新生成交付文档与插图时需要**，不参与作品运行，
+# 未安装也不影响 python -m src.cli / python -m src.server.app 的使用：
+# Pillow==12.3.0        # tools/draw_figs.py 绘制插图
+# python-docx==1.2.0    # tools/build_plan_doc.py 生成方案文档

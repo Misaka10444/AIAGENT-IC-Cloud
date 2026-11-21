@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>云梯 · 学业规划与选课顾问 Agent</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div class="app">
+
+  <!-- 左侧：学生与场景 -->
+  <aside class="side">
+    <div class="brand">
+      <div class="logo">梯</div>
+      <div>
+        <h1>云梯</h1>
+        <p>学业规划与选课顾问</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">选择学生（脱敏样例）</div>
+      <div id="students" class="students"></div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">快捷提问</div>
+      <div id="prompts" class="prompts"></div>
+    </div>
+
+    <div class="block meta">
+      <div id="kbmeta" class="meta-line">知识库加载中…</div>
+      <div id="enginemeta" class="meta-line"></div>
+    </div>
+  </aside>
+
+  <!-- 中间：对话 -->
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-title">对话</div>
+      <div class="topbar-actions">
+        <span id="status" class="status">就绪</span>
+        <button id="reset" class="ghost">清空会话</button>
+      </div>
+    </header>
+
+    <div id="chat" class="chat">
+      <div class="msg agent">
+        <div class="bubble">
+          <p><strong>我是云梯</strong>，北京科技职业大学「人工智能创新应用」赛项参赛作品。</p>
+          <p>我可以做四件事：按六个模块核算学分进度、在五类约束下生成学期修读方案、
+          校验先修与毕业资格、回答制度问题并给出原文出处。</p>
+          <p>左侧选择一名学生，或直接提问，例如「S001 下学期怎么选课」。</p>
+          <p class="disclosure">本系统输出由 AI 生成，仅基于脱敏样例数据，不替代教务处正式审核。</p>
+        </div>
+      </div>
+    </div>
+
+    <form id="composer" class="composer">
+      <input id="input" autocomplete="off" placeholder="例如：S003 能毕业吗 / 数据库和操作系统冲突吗" />
+      <button id="send" type="submit">发送</button>
+    </form>
+  </main>
+
+  <!-- 右侧：可观测面板 -->
+  <aside class="panel">
+    <header class="topbar">
+      <div class="topbar-title">运行轨迹</div>
+    </header>
+    <div class="panel-body">
+      <section class="psec">
+        <h3>智能体协作</h3>
+        <div id="roles" class="roles"><div class="empty">等待一次提问…</div></div>
+      </section>
+      <section class="psec">
+        <h3>工具调用</h3>
+        <div id="tools" class="tools"><div class="empty">—</div></div>
+      </section>
+      <section class="psec">
+        <h3>自检结论</h3>
+        <div id="audit" class="audit"><div class="empty">—</div></div>
+      </section>
+      <section class="psec">
+        <h3>引用溯源</h3>
+        <div id="cites" class="cites"><div class="empty">—</div></div>
+      </section>
+    </div>
+  </aside>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>
