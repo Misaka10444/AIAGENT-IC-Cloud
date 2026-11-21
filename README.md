@@ -3,9 +3,11 @@
 > 北京科技职业大学 2026 年校级技能竞赛「人工智能创新应用」赛项 · 参赛作品
 > 参赛队：Cloud（集成电路学院 / 人工智能学院）　指导教师：张维婷
 >
-> 仓库名 `AIAGENT-IC-Cloud` 按附件 3 的「AIAGENT-学院简称-队名」规则命名。
-> 学院简称取 **IC**（Integrated Circuit，集成电路）：GitHub 的仓库名只接受 ASCII
-> 字母、数字与 `.-_`，中文仓库名无法创建，故采用国际通用的英文缩写。
+> 本仓库按附件 3 的「AIAGENT-学院简称-队名」规则命名，双平台同步：
+> **Gitee（国内直连）** https://gitee.com/misaka10444/AIAGENT-IC-Cloud
+> **GitHub（镜像）**　　https://github.com/Misaka10444/AIAGENT-IC-Cloud
+> Gitee 上的仓库名称即 `AIAGENT-集成电路-Cloud`；因两平台的 URL 路径只接受 ASCII
+> 字母、数字与 `.-_`，地址末段取学院简称 **IC**（Integrated Circuit，集成电路）。
 
 把培养方案里分散在六份制度文档、数十条规则中的选课约束，收敛成一次对话，并且每个结论都能点回到原文的哪一行。
 
